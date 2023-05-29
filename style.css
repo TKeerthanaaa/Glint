@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(image/twigs-green-leaves-dew-black-background-wallpaper-preview.jpg);
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  -o-object-fit: contain;
+}
+
+.header {
+  margin: 1.5rem 1.5rem;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.menu_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.head_one h2 {
+  color: white;
+  margin: 1rem;
+}
+.dot {
+  font-size: 2rem;
+  color: green;
+}
+.menu_bar p {
+  color: green;
+}
+
+.hero_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+}
+
+.left_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 8rem;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  color: grey;
+}
+
+.heading-p {
+  color: white;
+  font-size: 40px;
+}
+.btn {
+  margin-top: 12px;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-one {
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 800px;
+  padding: 1rem;
+  width: 180px;
+  color: white;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+.lists {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.list {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
